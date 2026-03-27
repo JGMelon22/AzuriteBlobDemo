@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="AzuriteBlobDemo.API/AzuriteBlobDemo.API.csproj" />
+    <Project Path="AzuriteBlobDemo.Core/AzuriteBlobDemo.Core.csproj" />
+    <Project Path="AzuriteBlobDemo.Infrastructure/AzuriteBlobDemo.Infrastructure.csproj" />
+  </Folder>
+</Solution>
