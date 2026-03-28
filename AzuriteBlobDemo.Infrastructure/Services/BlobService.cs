@@ -1,4 +1,3 @@
-using System.Reflection.Metadata;
 using Azure;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
@@ -20,7 +19,7 @@ public class BlobService(
     public async Task<Guid> UploadAsync(Stream stream, string contentType,
         CancellationToken cancellationToken = default)
     {
-        const int maxAllowedFileSize = 10 * 1024 * 1024;
+        const int maxAllowedFileSize = 10 * 1024 * 1024; // 10 MB
         if (stream.Length >= maxAllowedFileSize)
             throw new FileToLargeException($"File size can not exceed {maxAllowedFileSize} MB");
         
