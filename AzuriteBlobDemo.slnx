@@ -5,7 +5,6 @@
     <Project Path="AzuriteBlobDemo.Infrastructure/AzuriteBlobDemo.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/" />
-  <Folder Name="/tests/" />
   <Folder Name="/tests/UnitTests/">
     <Project Path="AzuriteBlobDemo.Infrastructure.UnitTests/AzuriteBlobDemo.Infrastructure.UnitTests.csproj" />
   </Folder>
