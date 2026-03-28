@@ -12,8 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Endpoints\" />
-      <Folder Include="Extensions\" />
+      <ProjectReference Include="..\AzuriteBlobDemo.Infrastructure\AzuriteBlobDemo.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

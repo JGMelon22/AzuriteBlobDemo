@@ -7,14 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\Services\" />
-      <Folder Include="Options\" />
-      <Folder Include="Services\" />
+      <PackageReference Include="Azure.Storage.Blobs" Version="12.27.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.5" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Azure.Storage.Blobs" Version="12.27.0" />
-      <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.5" />
+      <ProjectReference Include="..\AzuriteBlobDemo.Core\AzuriteBlobDemo.Core.csproj" />
     </ItemGroup>
 
 </Project>
