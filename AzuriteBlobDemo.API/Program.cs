@@ -21,7 +21,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.MapScalarApiReference(options => { options.WithTitle("Azurite Blob API"); });
+    app.MapScalarApiReference(options =>
+    {
+        options.WithTitle("Azurite Blob API");
+        options.DisableAgent();
+    });
 }
 
 app.UseHttpsRedirection();
